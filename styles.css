@@ -1,0 +1,96 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {                
+    padding: 15px;
+    width: auto;
+    height: auto;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.upperlogo {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-left: 60px;
+    width: auto;
+    margin-right: 70%;
+ 
+}
+
+.links{
+    color: black;
+    padding-right: 20px;
+}
+
+.main {
+    text-align: center;
+}
+
+.buttons {
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: rgb(245, 243, 241);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.logo{
+    text-align: center;
+    font-size: 10vh;
+    padding: 20px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.foot {
+    font-size: 3vh;
+    font-weight: 200;
+    margin-left: 58%;
+    color: royalblue;
+}
+
+.advanced {
+    font-size: x-large;
+    font-weight: 400;
+    color: red;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+
+.advsearch {
+    font-size: large;
+    font-weight: 200;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.bar {
+    width: 70vh;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(212, 209, 209);
+}
+
+.advbar {
+    width: 70vh;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(212, 209, 209);
+}
+
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-left: 30px;
+    padding: 15px;
+}
