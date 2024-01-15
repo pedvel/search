@@ -89,7 +89,12 @@ input[type="submit"].buttons:hover{
 
 input[type="text"].bar:focus {
     outline: none;
-    box-shadow: 3px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+input[type="text"].bar:hover {
+    outline: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .advbar {
@@ -98,6 +103,7 @@ input[type="text"].bar:focus {
     border-radius: 5px;
     border-width: 1px;
     border-color: rgb(212, 209, 209);
+    padding-left: 15px;
 }
 
 
