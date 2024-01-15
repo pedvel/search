@@ -45,6 +45,21 @@ input[type="submit"].buttons:hover{
     color: antiquewhite;    
 }
 
+.advbtn {
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: royalblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: lighter;
+    color: antiquewhite;
+    margin-left: 48vw;
+}
+
+input[type="submit"].advbtn:hover {
+    box-shadow: 0 3px 10px royalblue;
+}
+
 .logo{
     text-align: center;
     font-size: 10vh;
@@ -110,6 +125,6 @@ input[type="text"].bar:hover {
 label {
     display: inline-block;
     width: 200px;
-    margin-left: 30px;
+    margin-left: 40px;
     padding: 15px;
 }
