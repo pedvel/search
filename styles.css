@@ -24,6 +24,7 @@
 .links{
     color: black;
     padding-right: 20px;
+    text-decoration: none;
 }
 
 .main {
@@ -37,6 +38,11 @@
     font-size: 18px;
     padding: 10px;
     font-weight: lighter;
+}
+
+input[type="submit"].buttons:hover{
+    background-color: royalblue;
+    color: antiquewhite;    
 }
 
 .logo{
@@ -77,6 +83,13 @@
     border-radius: 20px;
     border-width: 1px;
     border-color: rgb(212, 209, 209);
+    padding-left: 20px;
+    font-size: large;
+}
+
+input[type="text"].bar:focus {
+    outline: none;
+    box-shadow: 3px;
 }
 
 .advbar {
