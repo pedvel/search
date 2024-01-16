@@ -41,8 +41,7 @@
 }
 
 input[type="submit"].buttons:hover{
-    background-color: royalblue;
-    color: antiquewhite;    
+    box-shadow: 0 3px 5px rgb(173, 175, 180);    
 }
 
 .advbtn {
